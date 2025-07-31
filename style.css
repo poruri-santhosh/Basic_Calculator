@@ -1,0 +1,93 @@
+body{
+    background-image: url(images/v602-nunoon-16-rippednotes.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.calculator{
+    width: 306px;
+    margin: 0 auto;
+    height: 400px;
+    padding: 20px;
+    border: 2px solid #000000;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(15, 158, 148);
+
+}
+.first_row {
+    padding-top: 10px;
+    padding-bottom: 3px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: none;
+}
+.first_buttons {
+    width: 148px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 14px;;
+    font-size: 16px;
+    margin-left: 3px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    
+}
+.first_buttons:hover {
+    background-color: rgb(0, 0, 0);
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+#clear {
+    background-color: rgb(252, 87, 120);
+}
+
+#clear:hover {
+    background-color: rgb(217, 105, 135);
+    transform: scale(1.0);
+}
+#delete {
+    background-color: rgb(163, 163, 255);
+}
+#delete:hover {
+    background-color: rgb(128, 128, 255);
+    transform: scale(1.0);
+}
+#input1 {
+    width: 281px;
+    height: 60px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    padding: none;
+    margin-bottom: 7px;
+}
+.others{
+    width: 70px;
+    height: 50px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    overflow: hidden;
+    padding-top: 10px;
+    margin-top: 8px;
+    margin-bottom: none;
+    font-size: 16px;
+    margin-left: 3px;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+.others:hover{
+    background-color:rgb(174, 150, 150) ;
+    cursor: pointer;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    transform: scale(1.0);
+}
+
